@@ -1,0 +1,79 @@
+body {
+    background-color: #777c7c;
+}
+
+.container {
+    background-color: #e0e7e7; /* #으로 열고 조정 가능 */
+    max-width: 1000px;
+    margin: 30px auto; /* 위아래 가로세로중앙 */
+    padding: 20px; /* 내부 여백 */
+    box-shadow: 0px 5px 20px rgba(14, 14, 14, 0.5); /* 박스의 그림자 */
+    }
+
+    .header {
+        text-align: center;
+    }
+
+    .img-area img {
+        width: 150px;
+        height: 150px;
+        border-radius: 30%;
+    }
+
+    .header h3 {
+        text-transform: capitalize; /* 텍스트 속성 변경 */
+        font-size: 20px;
+        font-weight: bold; /* 폰트 굵기 */
+    }
+
+    .info, .workExp {
+        padding: 30px;
+    }
+
+    h2 {
+        background-color: #848a8a;
+        color: white;
+        padding: 5px;
+        margin: 10px 0;
+        font-size: 140%;
+        border-radius: 0 40px 40px 0; /* 상좌 상우 하좌 하우*/
+    }
+
+    .containerSkills {
+        width: 95%;
+        background-color: #a1a8a8;
+        margin-left: 30px;
+        color: white;
+    }
+
+    .skills {
+        text-align: right;
+    }
+
+    .html {
+        width: 90%;
+        background-color: #383a3a;
+    }
+
+    .css {
+        width : 80%;
+        background-color: #383a3a;
+    }
+
+    .js {
+        width: 90%;
+        background-color: #383a3a;
+    }
+
+    .workExp h3 {
+        font-size: 25px;
+        padding-left: 10px;
+    }
+
+    .workExp p {
+        padding-left: 25px;
+    }
+
+    .workExp ul {
+        padding-left: 45px;
+    }
